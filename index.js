@@ -11,9 +11,9 @@ let lengthInfo = document.getElementById("length-info")
 let volumeInfo = document.getElementById("volume-info")
 let massInfo = document.getElementById("mass-info")
 
-lengthInfo.innerHTML += `0 meters = 0 feet | 0 feet = 0 meters`
+/* lengthInfo.innerHTML += `0 meters = 0 feet | 0 feet = 0 meters`
 volumeInfo.innerHTML = ` 0 liters = 0 gallons | 0 gallons = 0 liters`
-massInfo.innerHTML = `0 kilos = 0 pounds | 0 pounds = 0 kilos`
+massInfo.innerHTML = `0 kilos = 0 pounds | 0 pounds = 0 kilos`*/
 
 convertBtn.addEventListener("click", function number() {
     let submittedNumber = unit.value
